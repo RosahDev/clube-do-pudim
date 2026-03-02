@@ -61,18 +61,16 @@ ul {
 
 .btn-primary {
     display: inline-block;
-    background-color: var(--green-dark);
-    color: var(--white);
+    background-color: var(--beige);
+    color: var(--green-dark);
     padding: 0.8rem 1.5rem;
     border-radius: 4px;
     font-weight: 500;
-    border: 1px solid var(--green-dark);
     transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
 }
 
 .btn-primary:hover {
     background-color: var(--green-hover);
-    transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(26, 59, 43, 0.2);
     color: var(--white);
 }
@@ -85,17 +83,17 @@ ul {
 .btn-outline {
     display: inline-block;
     background-color: transparent;
-    color: var(--green-dark);
+    color: var(--beige);
     padding: 0.8rem 1.5rem;
     border-radius: 4px;
     font-weight: 500;
-    border: 1px solid var(--green-dark);
+    border: 1px solid var(--beige);
     transition: all 0.3s;
 }
 
 .btn-outline:hover {
-    background-color: var(--green-dark);
-    color: var(--white);
+    background-color: var(--beige);
+    color: var(--green-dark);
 }
 
 .btn-outline-small {
@@ -186,20 +184,21 @@ nav {
     justify-content: center;
     text-align: center;
     padding-top: 80px;
-    background: var(--white);
+    background-image: url(/Photos/fundo3.png);
+    background-size: cover;
 }
 
 .hero-text h1 {
     font-family: var(--font-title);
     font-size: 3rem;
-    color: var(--green-dark);
+    color: var(--beige);
     margin-bottom: 1rem;
     line-height: 1.2;
 }
 
 .hero-text p {
     font-size: 1.1rem;
-    color: var(--text-light);
+    color: var(--beige);
     margin-bottom: 2rem;
     max-width: 600px;
     margin-left: auto;
