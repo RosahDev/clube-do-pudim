@@ -1,7 +1,7 @@
 {
-  "name": "Nome Completo do Seu Site",
-  "short_name": "MeuApp",
-  "description": "Uma breve descrição do que seu site faz",
+  "name": "Clube do Pudim",
+  "short_name": "CDP",
+  "description": "O melhor pudim artesanal!",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
